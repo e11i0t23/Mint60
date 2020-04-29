@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Mint60-rescue)(type Legacy)(uri ${KIPRJMOD}/Mint60-rescue.lib)(options "")(descr ""))
+  (lib (name Mint60)(type Legacy)(uri ${KIPRJMOD}/Mint60.lib)(options "")(descr ""))
+)

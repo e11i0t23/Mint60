@@ -1,6 +1,39 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Mint60-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:helix-cache
+LIBS:Mint60
+LIBS:switches
 LIBS:Mint60-cache
-EELAYER 30 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mint60:ProMicro U1
+L ProMicro U1
 U 1 1 5B464B2E
 P 2350 2550
 F 0 "U1" H 2750 3550 60  0000 C CNN
@@ -26,7 +59,7 @@ F 3 "" H 2350 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mint60-rescue:MJ-4PP-9-RESCUE-Mint60 J4
+L MJ-4PP-9-RESCUE-Mint60 J4
 U 1 1 5B4658E1
 P 2500 6300
 F 0 "J4" H 2150 6000 60  0000 C CNN
@@ -37,7 +70,7 @@ F 3 "" H 2500 6300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Mint60:SW_Push SW1
+L SW_Push SW1
 U 1 1 5B465ABB
 P 4500 2300
 F 0 "SW1" H 4550 2400 50  0000 L CNN
@@ -48,7 +81,7 @@ F 3 "" H 4500 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
+L D D1
 U 1 1 5B465AE7
 P 4700 2450
 F 0 "D1" H 4700 2550 50  0000 C CNN
@@ -59,7 +92,7 @@ F 3 "" H 4700 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW2
+L SW_Push SW2
 U 1 1 5B4657D2
 P 5200 2300
 F 0 "SW2" H 5250 2400 50  0000 L CNN
@@ -70,7 +103,7 @@ F 3 "" H 5200 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D2
+L D D2
 U 1 1 5B4657D8
 P 5400 2450
 F 0 "D2" H 5400 2550 50  0000 C CNN
@@ -81,7 +114,7 @@ F 3 "" H 5400 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW3
+L SW_Push SW3
 U 1 1 5B46582E
 P 5900 2300
 F 0 "SW3" H 5950 2400 50  0000 L CNN
@@ -92,7 +125,7 @@ F 3 "" H 5900 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
+L D D3
 U 1 1 5B465834
 P 6100 2450
 F 0 "D3" H 6100 2550 50  0000 C CNN
@@ -103,7 +136,7 @@ F 3 "" H 6100 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW4
+L SW_Push SW4
 U 1 1 5B46592A
 P 6600 2300
 F 0 "SW4" H 6650 2400 50  0000 L CNN
@@ -114,7 +147,7 @@ F 3 "" H 6600 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L D D4
 U 1 1 5B465930
 P 6800 2450
 F 0 "D4" H 6800 2550 50  0000 C CNN
@@ -125,7 +158,7 @@ F 3 "" H 6800 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW5
+L SW_Push SW5
 U 1 1 5B465936
 P 7300 2300
 F 0 "SW5" H 7350 2400 50  0000 L CNN
@@ -136,7 +169,7 @@ F 3 "" H 7300 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D5
+L D D5
 U 1 1 5B46593C
 P 7500 2450
 F 0 "D5" H 7500 2550 50  0000 C CNN
@@ -147,7 +180,7 @@ F 3 "" H 7500 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW6
+L SW_Push SW6
 U 1 1 5B465942
 P 8000 2300
 F 0 "SW6" H 8050 2400 50  0000 L CNN
@@ -158,7 +191,7 @@ F 3 "" H 8000 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D6
+L D D6
 U 1 1 5B465948
 P 8200 2450
 F 0 "D6" H 8200 2550 50  0000 C CNN
@@ -169,7 +202,7 @@ F 3 "" H 8200 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW9
+L SW_Push SW9
 U 1 1 5B465C6E
 P 4500 2850
 F 0 "SW9" H 4550 2950 50  0000 L CNN
@@ -180,7 +213,7 @@ F 3 "" H 4500 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D9
+L D D9
 U 1 1 5B465C74
 P 4700 3000
 F 0 "D9" H 4700 3100 50  0000 C CNN
@@ -191,7 +224,7 @@ F 3 "" H 4700 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW10
+L SW_Push SW10
 U 1 1 5B465C7A
 P 5200 2850
 F 0 "SW10" H 5250 2950 50  0000 L CNN
@@ -202,7 +235,7 @@ F 3 "" H 5200 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D10
+L D D10
 U 1 1 5B465C80
 P 5400 3000
 F 0 "D10" H 5400 3100 50  0000 C CNN
@@ -213,7 +246,7 @@ F 3 "" H 5400 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW11
+L SW_Push SW11
 U 1 1 5B465C86
 P 5900 2850
 F 0 "SW11" H 5950 2950 50  0000 L CNN
@@ -224,7 +257,7 @@ F 3 "" H 5900 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
+L D D11
 U 1 1 5B465C8C
 P 6100 3000
 F 0 "D11" H 6100 3100 50  0000 C CNN
@@ -235,7 +268,7 @@ F 3 "" H 6100 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW12
+L SW_Push SW12
 U 1 1 5B465C92
 P 6600 2850
 F 0 "SW12" H 6650 2950 50  0000 L CNN
@@ -246,7 +279,7 @@ F 3 "" H 6600 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L D D12
 U 1 1 5B465C98
 P 6800 3000
 F 0 "D12" H 6800 3100 50  0000 C CNN
@@ -257,7 +290,7 @@ F 3 "" H 6800 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW13
+L SW_Push SW13
 U 1 1 5B465C9E
 P 7300 2850
 F 0 "SW13" H 7350 2950 50  0000 L CNN
@@ -268,7 +301,7 @@ F 3 "" H 7300 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D13
+L D D13
 U 1 1 5B465CA4
 P 7500 3000
 F 0 "D13" H 7500 3100 50  0000 C CNN
@@ -279,7 +312,7 @@ F 3 "" H 7500 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW14
+L SW_Push SW14
 U 1 1 5B465CAA
 P 8000 2850
 F 0 "SW14" H 8050 2950 50  0000 L CNN
@@ -290,7 +323,7 @@ F 3 "" H 8000 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D14
+L D D14
 U 1 1 5B465CB0
 P 8200 3000
 F 0 "D14" H 8200 3100 50  0000 C CNN
@@ -301,7 +334,7 @@ F 3 "" H 8200 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW17
+L SW_Push SW17
 U 1 1 5B465F12
 P 4500 3400
 F 0 "SW17" H 4550 3500 50  0000 L CNN
@@ -312,7 +345,7 @@ F 3 "" H 4500 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D17
+L D D17
 U 1 1 5B465F18
 P 4700 3550
 F 0 "D17" H 4700 3650 50  0000 C CNN
@@ -323,7 +356,7 @@ F 3 "" H 4700 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW18
+L SW_Push SW18
 U 1 1 5B465F1E
 P 5200 3400
 F 0 "SW18" H 5250 3500 50  0000 L CNN
@@ -334,7 +367,7 @@ F 3 "" H 5200 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D18
+L D D18
 U 1 1 5B465F24
 P 5400 3550
 F 0 "D18" H 5400 3650 50  0000 C CNN
@@ -345,7 +378,7 @@ F 3 "" H 5400 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW19
+L SW_Push SW19
 U 1 1 5B465F2A
 P 5900 3400
 F 0 "SW19" H 5950 3500 50  0000 L CNN
@@ -356,7 +389,7 @@ F 3 "" H 5900 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D19
+L D D19
 U 1 1 5B465F30
 P 6100 3550
 F 0 "D19" H 6100 3650 50  0000 C CNN
@@ -367,7 +400,7 @@ F 3 "" H 6100 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW20
+L SW_Push SW20
 U 1 1 5B465F36
 P 6600 3400
 F 0 "SW20" H 6650 3500 50  0000 L CNN
@@ -378,7 +411,7 @@ F 3 "" H 6600 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
+L D D20
 U 1 1 5B465F3C
 P 6800 3550
 F 0 "D20" H 6800 3650 50  0000 C CNN
@@ -389,7 +422,7 @@ F 3 "" H 6800 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW21
+L SW_Push SW21
 U 1 1 5B465F42
 P 7300 3400
 F 0 "SW21" H 7350 3500 50  0000 L CNN
@@ -400,7 +433,7 @@ F 3 "" H 7300 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D21
+L D D21
 U 1 1 5B465F48
 P 7500 3550
 F 0 "D21" H 7500 3650 50  0000 C CNN
@@ -411,7 +444,7 @@ F 3 "" H 7500 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW22
+L SW_Push SW22
 U 1 1 5B465F4E
 P 8000 3400
 F 0 "SW22" H 8050 3500 50  0000 L CNN
@@ -422,7 +455,7 @@ F 3 "" H 8000 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D22
+L D D22
 U 1 1 5B465F54
 P 8200 3550
 F 0 "D22" H 8200 3650 50  0000 C CNN
@@ -433,7 +466,7 @@ F 3 "" H 8200 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW24
+L SW_Push SW24
 U 1 1 5B465F5A
 P 4500 3950
 F 0 "SW24" H 4550 4050 50  0000 L CNN
@@ -444,7 +477,7 @@ F 3 "" H 4500 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D24
+L D D24
 U 1 1 5B465F60
 P 4700 4100
 F 0 "D24" H 4700 4200 50  0000 C CNN
@@ -455,7 +488,7 @@ F 3 "" H 4700 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW25
+L SW_Push SW25
 U 1 1 5B465F66
 P 5200 3950
 F 0 "SW25" H 5250 4050 50  0000 L CNN
@@ -466,7 +499,7 @@ F 3 "" H 5200 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D25
+L D D25
 U 1 1 5B465F6C
 P 5400 4100
 F 0 "D25" H 5400 4200 50  0000 C CNN
@@ -477,7 +510,7 @@ F 3 "" H 5400 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW26
+L SW_Push SW26
 U 1 1 5B465F72
 P 5900 3950
 F 0 "SW26" H 5950 4050 50  0000 L CNN
@@ -488,7 +521,7 @@ F 3 "" H 5900 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D26
+L D D26
 U 1 1 5B465F78
 P 6100 4100
 F 0 "D26" H 6100 4200 50  0000 C CNN
@@ -499,7 +532,7 @@ F 3 "" H 6100 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW27
+L SW_Push SW27
 U 1 1 5B465F7E
 P 6600 3950
 F 0 "SW27" H 6650 4050 50  0000 L CNN
@@ -510,7 +543,7 @@ F 3 "" H 6600 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D27
+L D D27
 U 1 1 5B465F84
 P 6800 4100
 F 0 "D27" H 6800 4200 50  0000 C CNN
@@ -521,7 +554,7 @@ F 3 "" H 6800 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW28
+L SW_Push SW28
 U 1 1 5B465F8A
 P 7300 3950
 F 0 "SW28" H 7350 4050 50  0000 L CNN
@@ -532,7 +565,7 @@ F 3 "" H 7300 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D28
+L D D28
 U 1 1 5B465F90
 P 7500 4100
 F 0 "D28" H 7500 4200 50  0000 C CNN
@@ -543,7 +576,7 @@ F 3 "" H 7500 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW29
+L SW_Push SW29
 U 1 1 5B465F96
 P 8000 3950
 F 0 "SW29" H 8050 4050 50  0000 L CNN
@@ -554,7 +587,7 @@ F 3 "" H 8000 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D29
+L D D29
 U 1 1 5B465F9C
 P 8200 4100
 F 0 "D29" H 8200 4200 50  0000 C CNN
@@ -565,7 +598,7 @@ F 3 "" H 8200 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW35
+L SW_Push SW35
 U 1 1 5B466336
 P 4300 5150
 F 0 "SW35" H 4350 5250 50  0000 L CNN
@@ -576,7 +609,7 @@ F 3 "" H 4300 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D35
+L D D35
 U 1 1 5B46633C
 P 4850 5050
 F 0 "D35" H 4850 5150 50  0000 C CNN
@@ -587,7 +620,7 @@ F 3 "" H 4850 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW32
+L SW_Push SW32
 U 1 1 5B466366
 P 8000 4500
 F 0 "SW32" H 8050 4600 50  0000 L CNN
@@ -598,7 +631,7 @@ F 3 "" H 8000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D32
+L D D32
 U 1 1 5B46636C
 P 8200 4650
 F 0 "D32" H 8200 4750 50  0000 C CNN
@@ -609,7 +642,7 @@ F 3 "" H 8200 4650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60-rescue:Conn_01x03 J1
+L Conn_01x03 J1
 U 1 1 5B466CBE
 P 1950 4850
 F 0 "J1" H 1950 5050 50  0000 C CNN
@@ -620,7 +653,7 @@ F 3 "" H 1950 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mint60:SW_Push SW42
+L SW_Push SW42
 U 1 1 5B466F5A
 P 5900 6250
 F 0 "SW42" H 5950 6350 50  0000 L CNN
@@ -631,7 +664,7 @@ F 3 "" H 5900 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR01
+L +5V #PWR01
 U 1 1 5B46821F
 P 2050 1250
 F 0 "#PWR01" H 2050 1100 50  0001 C CNN
@@ -642,7 +675,7 @@ F 3 "" H 2050 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L GND #PWR02
 U 1 1 5B46832B
 P 2150 3800
 F 0 "#PWR02" H 2150 3550 50  0001 C CNN
@@ -688,7 +721,7 @@ NoConn ~ 3000 3400
 Text GLabel 1750 4850 0    39   Input ~ 0
 LED
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5B46AD56
 P 1650 4700
 F 0 "#PWR03" H 1650 4450 50  0001 C CNN
@@ -699,7 +732,7 @@ F 3 "" H 1650 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR04
+L +5V #PWR04
 U 1 1 5B46AE62
 P 1650 5000
 F 0 "#PWR04" H 1650 4850 50  0001 C CNN
@@ -710,7 +743,7 @@ F 3 "" H 1650 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR05
+L +5V #PWR05
 U 1 1 5B46AFFA
 P 750 850
 F 0 "#PWR05" H 750 700 50  0001 C CNN
@@ -721,7 +754,7 @@ F 3 "" H 750 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 5B46B106
 P 1100 1000
 F 0 "#PWR06" H 1100 750 50  0001 C CNN
@@ -732,7 +765,7 @@ F 3 "" H 1100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG07
+L PWR_FLAG #FLG07
 U 1 1 5B46B212
 P 1100 850
 F 0 "#FLG07" H 1100 925 50  0001 C CNN
@@ -743,7 +776,7 @@ F 3 "" H 1100 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG08
+L PWR_FLAG #FLG08
 U 1 1 5B46B35C
 P 750 1000
 F 0 "#FLG08" H 750 1075 50  0001 C CNN
@@ -756,7 +789,7 @@ $EndComp
 Text GLabel 5700 6250 0    39   Input ~ 0
 Reset
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 5B46BB93
 P 6100 6250
 F 0 "#PWR09" H 6100 6000 50  0001 C CNN
@@ -767,7 +800,7 @@ F 3 "" H 6100 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP1
+L Jumper_NC_Small JP1
 U 1 1 5B46BD1B
 P 1400 6400
 F 0 "JP1" H 1400 6480 50  0000 C CNN
@@ -778,7 +811,7 @@ F 3 "" H 1400 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR010
+L +5V #PWR010
 U 1 1 5B46C2D2
 P 2050 6500
 F 0 "#PWR010" H 2050 6350 50  0001 C CNN
@@ -789,7 +822,7 @@ F 3 "" H 2050 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 5B46C421
 P 2050 6300
 F 0 "#PWR011" H 2050 6050 50  0001 C CNN
@@ -800,7 +833,7 @@ F 3 "" H 2050 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mint60-rescue:Conn_01x02 J3
+L Conn_01x02 J3
 U 1 1 5B46D58E
 P 1600 6250
 F 0 "J3" H 1600 6350 50  0000 C CNN
@@ -813,7 +846,7 @@ $EndComp
 Text GLabel 1300 6400 0    39   Input ~ 0
 Data
 $Comp
-L Mint60-rescue:Conn_01x04 J2
+L Conn_01x04 J2
 U 1 1 5B46DED7
 P 3350 5050
 F 0 "J2" H 3350 5250 50  0000 C CNN
@@ -824,7 +857,7 @@ F 3 "" H 3350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L GND #PWR012
 U 1 1 5B46E103
 P 3000 4900
 F 0 "#PWR012" H 3000 4650 50  0001 C CNN
@@ -835,7 +868,7 @@ F 3 "" H 3000 4900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR013
+L +5V #PWR013
 U 1 1 5B46E21B
 P 3000 5300
 F 0 "#PWR013" H 3000 5150 50  0001 C CNN
@@ -872,7 +905,7 @@ Row3
 Text GLabel 4150 4800 0    39   Input ~ 0
 Row4
 $Comp
-L Device:R R1
+L R R1
 U 1 1 5B4704B3
 P 2750 4900
 F 0 "R1" V 2830 4900 50  0000 C CNN
@@ -883,7 +916,7 @@ F 3 "" H 2750 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L R R2
 U 1 1 5B4705D8
 P 2750 5300
 F 0 "R2" V 2830 5300 50  0000 C CNN
@@ -894,7 +927,7 @@ F 3 "" H 2750 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR014
+L +5V #PWR014
 U 1 1 5B4706FC
 P 2750 4750
 F 0 "#PWR014" H 2750 4600 50  0001 C CNN
@@ -905,7 +938,7 @@ F 3 "" H 2750 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR015
+L +5V #PWR015
 U 1 1 5B47081C
 P 2750 5450
 F 0 "#PWR015" H 2750 5300 50  0001 C CNN
@@ -916,7 +949,7 @@ F 3 "" H 2750 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Mint60:SW_Push SW7
+L SW_Push SW7
 U 1 1 5B474938
 P 8700 2300
 F 0 "SW7" H 8750 2400 50  0000 L CNN
@@ -927,7 +960,7 @@ F 3 "" H 8700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L D D7
 U 1 1 5B47493E
 P 8900 2450
 F 0 "D7" H 8900 2550 50  0000 C CNN
@@ -938,7 +971,7 @@ F 3 "" H 8900 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW8
+L SW_Push SW8
 U 1 1 5B474A00
 P 9450 2300
 F 0 "SW8" H 9500 2400 50  0000 L CNN
@@ -949,7 +982,7 @@ F 3 "" H 9450 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D8
+L D D8
 U 1 1 5B474A06
 P 9650 2450
 F 0 "D8" H 9650 2550 50  0000 C CNN
@@ -960,7 +993,7 @@ F 3 "" H 9650 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW15
+L SW_Push SW15
 U 1 1 5B474BF6
 P 8700 2850
 F 0 "SW15" H 8750 2950 50  0000 L CNN
@@ -971,7 +1004,7 @@ F 3 "" H 8700 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
+L D D15
 U 1 1 5B474BFC
 P 8900 3000
 F 0 "D15" H 8900 3100 50  0000 C CNN
@@ -982,7 +1015,7 @@ F 3 "" H 8900 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW16
+L SW_Push SW16
 U 1 1 5B474C02
 P 9450 2850
 F 0 "SW16" H 9500 2950 50  0000 L CNN
@@ -993,7 +1026,7 @@ F 3 "" H 9450 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D16
+L D D16
 U 1 1 5B474C08
 P 9650 3000
 F 0 "D16" H 9650 3100 50  0000 C CNN
@@ -1004,7 +1037,7 @@ F 3 "" H 9650 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW23
+L SW_Push SW23
 U 1 1 5B474CC4
 P 9450 3400
 F 0 "SW23" H 9500 3500 50  0000 L CNN
@@ -1015,7 +1048,7 @@ F 3 "" H 9450 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
+L D D23
 U 1 1 5B474CCA
 P 9650 3550
 F 0 "D23" H 9650 3650 50  0000 C CNN
@@ -1026,7 +1059,7 @@ F 3 "" H 9650 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW30
+L SW_Push SW30
 U 1 1 5B474DF1
 P 8700 3950
 F 0 "SW30" H 8750 4050 50  0000 L CNN
@@ -1037,7 +1070,7 @@ F 3 "" H 8700 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D30
+L D D30
 U 1 1 5B474DF7
 P 8900 4100
 F 0 "D30" H 8900 4200 50  0000 C CNN
@@ -1048,7 +1081,7 @@ F 3 "" H 8900 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW31
+L SW_Push SW31
 U 1 1 5B474DFD
 P 9450 3950
 F 0 "SW31" H 9500 4050 50  0000 L CNN
@@ -1059,7 +1092,7 @@ F 3 "" H 9450 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D31
+L D D31
 U 1 1 5B474E03
 P 9650 4100
 F 0 "D31" H 9650 4200 50  0000 C CNN
@@ -1070,7 +1103,7 @@ F 3 "" H 9650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW33
+L SW_Push SW33
 U 1 1 5B475452
 P 8700 4500
 F 0 "SW33" H 8750 4600 50  0000 L CNN
@@ -1081,7 +1114,7 @@ F 3 "" H 8700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D33
+L D D33
 U 1 1 5B475458
 P 8900 4650
 F 0 "D33" H 8900 4750 50  0000 C CNN
@@ -1092,7 +1125,7 @@ F 3 "" H 8900 4650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW34
+L SW_Push SW34
 U 1 1 5B47545E
 P 9450 4500
 F 0 "SW34" H 9500 4600 50  0000 L CNN
@@ -1103,7 +1136,7 @@ F 3 "" H 9450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L D D34
 U 1 1 5B475464
 P 9650 4650
 F 0 "D34" H 9650 4750 50  0000 C CNN
@@ -1122,7 +1155,7 @@ Col6
 Text GLabel 3000 3300 2    39   Input ~ 0
 Col7
 $Comp
-L Mint60:SW_Push SW36
+L SW_Push SW36
 U 1 1 5B477A62
 P 4600 5150
 F 0 "SW36" H 4650 5250 50  0000 L CNN
@@ -1133,7 +1166,7 @@ F 3 "" H 4600 5350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW37
+L SW_Push SW37
 U 1 1 5B477CE6
 P 5350 5150
 F 0 "SW37" H 5400 5250 50  0000 L CNN
@@ -1144,7 +1177,7 @@ F 3 "" H 5350 5350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:D D36
+L D D36
 U 1 1 5B477CEC
 P 6200 5050
 F 0 "D36" H 6200 5150 50  0000 C CNN
@@ -1155,7 +1188,7 @@ F 3 "" H 6200 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW39
+L SW_Push SW39
 U 1 1 5B477CF2
 P 5950 5150
 F 0 "SW39" H 6000 5250 50  0000 L CNN
@@ -1166,7 +1199,7 @@ F 3 "" H 5950 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW40
+L SW_Push SW40
 U 1 1 5B477E15
 P 6750 5150
 F 0 "SW40" H 6800 5250 50  0000 L CNN
@@ -1177,7 +1210,7 @@ F 3 "" H 6750 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D37
+L D D37
 U 1 1 5B477E1B
 P 7300 5050
 F 0 "D37" H 7300 5150 50  0000 C CNN
@@ -1188,7 +1221,7 @@ F 3 "" H 7300 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW41
+L SW_Push SW41
 U 1 1 5B477E21
 P 7050 5150
 F 0 "SW41" H 7100 5250 50  0000 L CNN
@@ -1199,7 +1232,7 @@ F 3 "" H 7050 5350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Mint60:SW_Push SW38
+L SW_Push SW38
 U 1 1 5B478330
 P 5650 5150
 F 0 "SW38" H 5700 5250 50  0000 L CNN
@@ -1214,7 +1247,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1400 2150 1400
 Wire Wire Line
-	2050 3700 2150 3700
+	2050 3700 2250 3700
 Connection ~ 2150 3700
 Wire Wire Line
 	2150 3700 2150 3800
@@ -1231,7 +1264,7 @@ Wire Wire Line
 Wire Wire Line
 	750  850  750  1000
 Wire Wire Line
-	1500 6400 1800 6400
+	1500 6400 2050 6400
 Wire Wire Line
 	1800 6150 2050 6150
 Wire Wire Line
@@ -1246,29 +1279,29 @@ Wire Wire Line
 Wire Wire Line
 	3000 5250 3150 5250
 Wire Wire Line
-	4150 4250 4700 4250
+	4150 4250 9650 4250
 Connection ~ 4700 4250
 Connection ~ 5400 4250
 Connection ~ 6100 4250
 Connection ~ 6800 4250
 Connection ~ 7500 4250
 Wire Wire Line
-	4150 3700 4700 3700
+	4150 3700 9650 3700
 Connection ~ 4700 3700
 Wire Wire Line
-	4150 3150 4700 3150
+	4150 3150 9650 3150
 Connection ~ 4700 3150
 Connection ~ 5400 3150
 Wire Wire Line
-	2600 5050 2750 5050
+	2600 5050 3150 5050
 Connection ~ 2750 5050
 Wire Wire Line
-	2600 5150 2750 5150
+	2600 5150 3150 5150
 Connection ~ 2750 5150
 Wire Wire Line
-	4300 2050 4300 2300
+	4300 2050 4300 4950
 Wire Wire Line
-	4150 2600 4700 2600
+	4150 2600 9650 2600
 Connection ~ 4700 2600
 Connection ~ 5400 2600
 Connection ~ 6100 2600
@@ -1286,7 +1319,7 @@ Connection ~ 4300 2850
 Connection ~ 4300 3400
 Connection ~ 4300 3950
 Wire Wire Line
-	5000 2050 5000 2300
+	5000 2050 5000 4950
 Connection ~ 5000 2300
 Connection ~ 5000 2850
 Connection ~ 5000 3400
@@ -1294,8 +1327,9 @@ Connection ~ 5000 3950
 Connection ~ 5700 2300
 Connection ~ 5700 2850
 Connection ~ 5700 3400
+Connection ~ 5700 3950
 Wire Wire Line
-	6400 2050 6400 2300
+	6400 2050 6400 4950
 Connection ~ 6400 2300
 Connection ~ 6400 2850
 Connection ~ 6400 3400
@@ -1303,17 +1337,18 @@ Connection ~ 6400 3950
 Connection ~ 7100 2300
 Connection ~ 7100 2850
 Connection ~ 7100 3400
+Connection ~ 7100 3950
 Wire Wire Line
-	7800 2050 7800 2300
+	7800 2050 7800 4500
 Connection ~ 7800 2300
 Connection ~ 7800 2850
 Connection ~ 7800 3400
 Wire Wire Line
-	5700 2050 5700 2300
+	5700 2050 5700 3950
 Wire Wire Line
-	7100 2050 7100 2300
+	7100 2050 7100 3950
 Wire Wire Line
-	4150 4800 4850 4800
+	4150 4800 9650 4800
 Connection ~ 8200 4800
 Connection ~ 8900 4800
 Connection ~ 8200 4250
@@ -1324,12 +1359,12 @@ Connection ~ 8900 3150
 Connection ~ 8200 2600
 Connection ~ 8900 2600
 Wire Wire Line
-	8500 2050 8500 2300
+	8500 2050 8500 4500
 Connection ~ 8500 2300
 Connection ~ 8500 2850
 Connection ~ 8500 3950
 Wire Wire Line
-	9250 2050 9250 2300
+	9250 2050 9250 4500
 Connection ~ 9250 2300
 Connection ~ 9250 2850
 Connection ~ 9250 3400
@@ -1338,7 +1373,7 @@ Connection ~ 7800 3950
 Wire Wire Line
 	4300 4950 4600 4950
 Wire Wire Line
-	4300 5350 4600 5350
+	4300 5350 4850 5350
 Wire Wire Line
 	4850 5350 4850 5200
 Connection ~ 4600 5350
@@ -1346,11 +1381,11 @@ Wire Wire Line
 	4850 4900 4850 4800
 Connection ~ 4850 4800
 Wire Wire Line
-	5000 4950 5350 4950
+	5000 4950 5950 4950
 Connection ~ 5650 4950
 Connection ~ 5350 4950
 Wire Wire Line
-	5350 5350 5650 5350
+	5350 5350 6200 5350
 Connection ~ 5650 5350
 Wire Wire Line
 	6200 5350 6200 5200
@@ -1359,192 +1394,14 @@ Wire Wire Line
 	6200 4900 6200 4800
 Connection ~ 6200 4800
 Wire Wire Line
-	6750 5350 7050 5350
+	6750 5350 7300 5350
 Wire Wire Line
 	7300 5350 7300 5200
 Connection ~ 7050 5350
 Wire Wire Line
-	6400 4950 6750 4950
+	6400 4950 7050 4950
 Wire Wire Line
 	7300 4900 7300 4800
 Connection ~ 7300 4800
 Connection ~ 6750 4950
-Wire Wire Line
-	2150 3700 2250 3700
-Wire Wire Line
-	1800 6400 2050 6400
-Wire Wire Line
-	4700 4250 5400 4250
-Wire Wire Line
-	5400 4250 6100 4250
-Wire Wire Line
-	6100 4250 6800 4250
-Wire Wire Line
-	6800 4250 7500 4250
-Wire Wire Line
-	7500 4250 8200 4250
-Wire Wire Line
-	4700 3700 5400 3700
-Wire Wire Line
-	4700 3150 5400 3150
-Wire Wire Line
-	5400 3150 6100 3150
-Wire Wire Line
-	2750 5050 3150 5050
-Wire Wire Line
-	2750 5150 3150 5150
-Wire Wire Line
-	4700 2600 5400 2600
-Wire Wire Line
-	5400 2600 6100 2600
-Wire Wire Line
-	6100 2600 6800 2600
-Wire Wire Line
-	6800 2600 7500 2600
-Wire Wire Line
-	7500 2600 8200 2600
-Wire Wire Line
-	6100 3150 6800 3150
-Wire Wire Line
-	6800 3150 7500 3150
-Wire Wire Line
-	7500 3150 8200 3150
-Wire Wire Line
-	5400 3700 6100 3700
-Wire Wire Line
-	6100 3700 6800 3700
-Wire Wire Line
-	6800 3700 7500 3700
-Wire Wire Line
-	7500 3700 8200 3700
-Wire Wire Line
-	4300 2300 4300 2850
-Wire Wire Line
-	4300 2850 4300 3400
-Wire Wire Line
-	4300 3400 4300 3950
-Wire Wire Line
-	4300 3950 4300 4950
-Wire Wire Line
-	5000 2300 5000 2850
-Wire Wire Line
-	5000 2850 5000 3400
-Wire Wire Line
-	5000 3400 5000 3950
-Wire Wire Line
-	5000 3950 5000 4950
-Wire Wire Line
-	5700 2300 5700 2850
-Wire Wire Line
-	5700 2850 5700 3400
-Wire Wire Line
-	5700 3400 5700 3950
-Wire Wire Line
-	6400 2300 6400 2850
-Wire Wire Line
-	6400 2850 6400 3400
-Wire Wire Line
-	6400 3400 6400 3950
-Wire Wire Line
-	6400 3950 6400 4950
-Wire Wire Line
-	7100 2300 7100 2850
-Wire Wire Line
-	7100 2850 7100 3400
-Wire Wire Line
-	7100 3400 7100 3950
-Wire Wire Line
-	7800 2300 7800 2850
-Wire Wire Line
-	7800 2850 7800 3400
-Wire Wire Line
-	7800 3400 7800 3950
-Wire Wire Line
-	8200 4800 8900 4800
-Wire Wire Line
-	8900 4800 9650 4800
-Wire Wire Line
-	8200 4250 8900 4250
-Wire Wire Line
-	8900 4250 9650 4250
-Wire Wire Line
-	8200 3150 8900 3150
-Wire Wire Line
-	8900 3150 9650 3150
-Wire Wire Line
-	8200 2600 8900 2600
-Wire Wire Line
-	8900 2600 9650 2600
-Wire Wire Line
-	8500 2300 8500 2850
-Wire Wire Line
-	8500 3950 8500 4500
-Wire Wire Line
-	9250 2300 9250 2750
-Wire Wire Line
-	9250 2850 9250 3300
-Wire Wire Line
-	9250 3400 9250 3950
-Wire Wire Line
-	9250 3950 9250 4500
-Wire Wire Line
-	7800 3950 7800 4500
-Wire Wire Line
-	4600 5350 4850 5350
-Wire Wire Line
-	4850 4800 6200 4800
-Wire Wire Line
-	5650 4950 5950 4950
-Wire Wire Line
-	5350 4950 5650 4950
-Wire Wire Line
-	5650 5350 5950 5350
-Wire Wire Line
-	5950 5350 6200 5350
-Wire Wire Line
-	6200 4800 7300 4800
-Wire Wire Line
-	7050 5350 7300 5350
-Wire Wire Line
-	7300 4800 8200 4800
-Wire Wire Line
-	6750 4950 7050 4950
-Wire Wire Line
-	8500 2850 8500 3950
-Wire Wire Line
-	8200 3700 9650 3700
-$Comp
-L Mint60:SW_Push SW16A1
-U 1 1 5EA29639
-P 9450 2750
-F 0 "SW16A1" H 9500 2850 50  0000 L CNN
-F 1 "SW_Push" H 9450 2690 50  0000 C CNN
-F 2 "Mint60:SW_Cherry_Matias_1.00u_PCB" H 9450 2950 50  0001 C CNN
-F 3 "" H 9450 2950 50  0001 C CNN
-	1    9450 2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 9250 2750
-Wire Wire Line
-	9250 2750 9250 2850
-Wire Wire Line
-	9650 2750 9650 2850
-Connection ~ 9650 2850
-$Comp
-L Mint60:SW_Push SW23A1
-U 1 1 5EA30277
-P 9450 3300
-F 0 "SW23A1" H 9500 3400 50  0000 L CNN
-F 1 "SW_Push" H 9450 3240 50  0000 C CNN
-F 2 "Mint60:SW_Cherry_Matias_2.00u_PCB" H 9450 3500 50  0001 C CNN
-F 3 "" H 9450 3500 50  0001 C CNN
-	1    9450 3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 9250 3300
-Wire Wire Line
-	9250 3300 9250 3400
-Wire Wire Line
-	9650 3300 9650 3400
-Connection ~ 9650 3400
 $EndSCHEMATC
